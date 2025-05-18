@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.bottons {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background: #00c9a7;
+    border: none;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #019C8C;
+    transform: scale(1.05);
+}
+
+#res-newbtn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#resat, #new-game {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#resat {
+    background-color: #f0932b;
+    color: white;
+}
+
+#resat:hover {
+    background-color: #e1701a;
+}
+
+#new-game {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+#new-game:hover {
+    background-color: #4b4bc3;
+}
+
+.msg-container {
+    margin-bottom: 20px;
+    background-color: #ffeaa7;
+    border: 2px dashed #fdcb6e;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.hide {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .bottons {
+        grid-template-columns: repeat(3, 80px);
+        grid-gap: 10px;
+    }
+
+    .btn {
+        height: 80px;
+        width: 80px;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    #resat, #new-game {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
