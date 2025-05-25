@@ -1,2 +1,29 @@
-# Mini-projects
-1. 🟢 Tic Tac Toe Game A classic 2-player Tic Tac Toe game built with JavaScript logic and styled using HTML &amp; CSS.  Features:  Two-player gameplay  Win/draw detection  Game reset option  Simple and clean design
+# 🎮 Tic Tac Toe Game
+
+A simple and fun **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**. Play against a friend and see who wins in this classic 3x3 grid game!
+
+## 📸 Demo
+
+![Tic Tac Toe Demo]  https://tarun-102.github.io/Mini-projects/
+
+> ✨ "Easy to play, hard to win!" — Challenge your friends now.
+
+---
+
+## 🚀 Features
+
+- ✅ Two-player mode
+- ✅ Win & draw detection
+- ✅ Stylish UI with smooth transitions
+- ✅ Mobile-responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Structure
+- **CSS** – Styling
+- **JavaScript** – Game Logic
+
+
+
