@@ -4,7 +4,7 @@ A simple and fun **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**.
 
 ## 📸 Demo
 
-![Tic Tac Toe Demo]  https://tarun-102.github.io/Mini-projects/
+![Tic Tac Toe Demo]   https://tarun-102.github.io/Tic-Tac-Toe/
 
 > ✨ "Easy to play, hard to win!" — Challenge your friends now.
 
